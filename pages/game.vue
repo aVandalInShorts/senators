@@ -1,0 +1,106 @@
+<template>
+<div class="flex flex-col flex-nowrap align-items-center game">
+  <div class="overflow-hidden bg-white shadow sm:rounded-lg">
+    <div class="border-b-2 border-gray-200 p-4">
+      <img :src="require(`@/static/profile/${picture}`)" />
+		</div>
+    
+    <div class="border-b-2 border-gray-200 p-4">
+      <div>Current score: {{ points }} / {{ total }}</div>
+		</div>
+    
+    <div class="grid grid-cols-2 gap-[2px] bg-gray-200">
+      <GameButton :num="1" :name="answers[0]" @clicked="handleButtonClick" />
+      <GameButton :num="2" :name="answers[1]" @clicked="handleButtonClick" />
+      <GameButton :num="3" :name="answers[2]" @clicked="handleButtonClick" />
+      <GameButton :num="4" :name="answers[3]" @clicked="handleButtonClick" />
+    </div>
+	</div>
+  
+    <div class="p-4">
+      <nuxt-link to="/" class="text-sky-600">Return home</nuxt-link>
+		</div>
+</div>
+</template>
+
+<script lang="ts" setup>
+import { ref } from 'vue'
+import GameButton from '~/components/GameButton.vue';
+import senators from '~/data/senators.json';
+
+let answers: any = ref([]);
+let currGoodAnswer = ref(0);
+let picture = ref('');
+let points = ref(0);
+let senatorsList: any[] = [];
+const senatorsRaw = [ ...senators.list ];
+const senatorsToSplice = [ ...senators.list ];
+let stage = ref(1);
+const total = ref(10);
+
+generateSenatorList();
+fillDataWithSenator();
+console.log('senatorsList', senatorsList);
+console.log('answers', answers);
+
+function fillDataWithSenator(index: number = 1) {
+  const curr = senatorsList[index - 1];
+  answers = [
+    curr.answers[1],
+    curr.answers[2],
+    curr.answers[3],
+    curr.answers[4]
+  ]
+  currGoodAnswer = curr.goodAnswer;
+  picture = curr.image;
+  console.log('currGoodAnswer', currGoodAnswer);
+}
+
+function generateSenatorList(count: number = 1) {
+  if (count <= total.value) {
+    const randIndex = Math.floor(Math.random() * senatorsToSplice.length);
+    const goodAnswer = Math.ceil(Math.random() * 4);
+    const filteredSenatorsBySex = senatorsRaw.filter(sen => sen.sex === senatorsToSplice[randIndex].sex && sen.name !== senatorsToSplice[randIndex].name);
+    
+    const item: any = {
+      ...senatorsToSplice[randIndex],
+      "goodAnswer": goodAnswer,
+      "answers": {}
+    }
+    
+    for (let i = 1; i <= 4; i++) {
+      if (i !== goodAnswer) {
+        const answerRandIndex = Math.floor(Math.random() * filteredSenatorsBySex.length);
+        item.answers[i] = filteredSenatorsBySex[answerRandIndex].name;
+        filteredSenatorsBySex.splice(answerRandIndex, 1);
+      } else {
+        item.answers[i] = item.name;
+      }
+    }
+    
+    senatorsList.push(item);
+    senatorsToSplice.splice(randIndex, 1);
+    
+    generateSenatorList(count + 1);
+  }
+}
+
+function handleButtonClick(num: number) {
+  console.log('Num', num,);
+  console.log('currGoodAnswer', currGoodAnswer);
+  
+  if(num === currGoodAnswer as unknown) {
+    console.log('YES');
+    points.value++;
+  } else {
+    console.log('NO');
+  }
+}
+
+</script>
+
+<style>
+	.game {
+		width: min(92%, 600px);
+	}
+</style>

@@ -1,0 +1,16 @@
+<template>
+	<button type="button" class="p-3 bg-white flex align-center hover:bg-gray-200 transition ease-in-out duration-200" @click="$emit('clicked', num)">
+		<span class="inline-block bg-sky-600 w-[25px] h-[25px] text-white rounded-full">{{ num }}</span>
+		<span class="inline-block ml-2">{{ name }}</span>
+	</button>
+</template>
+<script setup>
+	defineProps({
+		num: Number,
+		name: String
+	});
+
+</script>
+<style lang="">
+	
+</style>
