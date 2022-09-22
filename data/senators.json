@@ -1,84 +1,444 @@
 {
 	"list": [
 		{
-			"name": "Morice",
-			"sex": "m",
-			"image": "narwhal-1.jpg"
+			"name": "Margaret Dawn Anderso",
+			"sex": "F",
+			"image": "SENATOR MARGARET DAWN ANDERSO.jpg"
 		},
 		{
-			"name": "Jean",
-			"sex": "m",
-			"image": "narwhal-1.jpg"
+			"name": "David M. Arnot",
+			"sex": "M",
+			"image": "SENATOR DAVID M. ARNOT.jpg"
 		},
 		{
-			"name": "Martine",
-			"sex": "f",
-			"image": "narwhal-2.jpg"
+			"name": "Salma Ataullahjan",
+			"sex": "F",
+			"image": "SENATOR SALMA ATAULLAHJAN.jpg"
 		},
 		{
-			"name": "Justine",
-			"sex": "f",
-			"image": "narwhal-2.jpg"
+			"name": "Michèle Audette",
+			"sex": "F",
+			"image": "SENATOR MICHÈLE AUDETTE.jpg"
 		},
 		{
-			"name": "Luc",
-			"sex": "m",
-			"image": "narwhal-1.jpg"
+			"name": "Denise Batters",
+			"sex": "F",
+			"image": "SENATOR DENISE BATTERS.jpg"
 		},
 		{
-			"name": "Dom",
-			"sex": "m",
-			"image": "narwhal-1.jpg"
+			"name": "Diane Bellemare",
+			"sex": "F",
+			"image": "SENATOR DIANE BELLEMARE.jpg"
 		},
 		{
-			"name": "Audrey",
-			"sex": "f",
-			"image": "narwhal-2.jpg"
+			"name": "Wanda Thomas Bernard",
+			"sex": "F",
+			"image": "SENATOR WANDA THOMAS BERNARD.jpg"
 		},
 		{
-			"name": "Jen",
-			"sex": "f",
-			"image": "narwhal-2.jpg"
+			"name": "Robert Black",
+			"sex": "M",
+			"image": "SENATOR ROBERT BLACK.jpg"
 		},
 		{
-			"name": "Ben",
-			"sex": "m",
-			"image": "narwhal-1.jpg"
+			"name": "Peter M. Boehm",
+			"sex": "M",
+			"image": "SENATOR PETER M. BOEHM.jpg"
 		},
 		{
-			"name": "Fred",
-			"sex": "m",
-			"image": "narwhal-1.jpg"
+			"name": "Pierre-Hugues Boisvenu",
+			"sex": "M",
+			"image": "SENATOR PIERRE-HUGUES BOISVENU.jpg"
 		},
 		{
-			"name": "Jess",
-			"sex": "f",
-			"image": "narwhal-2.jpg"
+			"name": "Gwen Boniface",
+			"sex": "F",
+			"image": "SENATOR GWEN BONIFACE.jpg"
 		},
 		{
-			"name": "Val",
-			"sex": "f",
-			"image": "narwhal-2.jpg"
+			"name": "Patricia Bovey",
+			"sex": "F",
+			"image": "SENATOR PATRICIA BOVEY.jpg"
 		},
 		{
-			"name": "Pierre",
-			"sex": "m",
-			"image": "narwhal-1.jpg"
+			"name": "Yvonne Boyer",
+			"sex": "F",
+			"image": "SENATOR YVONNE BOYER.jpg"
 		},
 		{
-			"name": "Simon",
-			"sex": "m",
-			"image": "narwhal-1.jpg"
+			"name": "Patrick Brazeau",
+			"sex": "M",
+			"image": "SENATOR PATRICK BRAZEAU.jpg"
 		},
 		{
-			"name": "Ellen",
-			"sex": "f",
-			"image": "narwhal-2.jpg"
+			"name": "Bev Busson",
+			"sex": "F",
+			"image": "SENATOR BEV BUSSON.jpg"
 		},
 		{
-			"name": "Mel",
-			"sex": "f",
-			"image": "narwhal-2.jpg"
+			"name": "Larry W. Campbell",
+			"sex": "M",
+			"image": "SENATOR LARRY W. CAMPBELL.jpg"
+		},
+		{
+			"name": "Claude Carignan",
+			"sex": "M",
+			"image": "SENATOR CLAUDE CARIGNAN.jpg"
+		},
+		{
+			"name": "Dan Christmas",
+			"sex": "M",
+			"image": "SENATOR DAN CHRISTMAS.jpg"
+		},
+		{
+			"name": "Bernadette Clement",
+			"sex": "F",
+			"image": "SENATOR BERNADETTE CLEMENT.jpg"
+		},
+		{
+			"name": "Jane Cordy",
+			"sex": "F",
+			"image": "SENATOR JANE CORDY.jpg"
+		},
+		{
+			"name": "René Cormier",
+			"sex": "M",
+			"image": "SENATOR RENÉ CORMIER.jpg"
+		},
+		{
+			"name": "Brent Cotter",
+			"sex": "M",
+			"image": "SENATOR BRENT COTTER.jpg"
+		},
+		{
+			"name": "Mary Coyle",
+			"sex": "F",
+			"image": "SENATOR MARY COYLE.jpg"
+		},
+		{
+			"name": "Jean-Guy Dagenais",
+			"sex": "M",
+			"image": "SENATOR JEAN-GUY DAGENAIS.jpg"
+		},
+		{
+			"name": "Pierre J. Dalphond",
+			"sex": "M",
+			"image": "SENATOR PIERRE J. DALPHOND.jpg"
+		},
+		{
+			"name": "Donna Dasko",
+			"sex": "F",
+			"image": "SENATOR DONNA DASKO.jpg"
+		},
+		{
+			"name": "Dennis Dawson",
+			"sex": "M",
+			"image": "SENATOR DENNIS DAWSON.jpg"
+		},
+		{
+			"name": "Colin Deacon",
+			"sex": "M",
+			"image": "SENATOR COLIN DEACON.jpg"
+		},
+		{
+			"name": "Marty Deacon",
+			"sex": "F",
+			"image": "SENATOR MARTY DEACON.jpg"
+		},
+		{
+			"name": "Tony Dean",
+			"sex": "M",
+			"image": "SENATOR TONY DEAN.jpg"
+		},
+		{
+			"name": "Percy E. Downe",
+			"sex": "M",
+			"image": "SENATOR PERCY E. DOWNE.jpg"
+		},
+		{
+			"name": "Pat Duncan",
+			"sex": "F",
+			"image": "SENATOR PAT DUNCAN.jpg"
+		},
+		{
+			"name": "Renée Dupuis",
+			"sex": "F",
+			"image": "SENATOR RENÉE DUPUIS.jpg"
+		},
+		{
+			"name": "Éric Forest",
+			"sex": "M",
+			"image": "SENATOR ÉRIC FOREST.jpg"
+		},
+		{
+			"name": "Brian Francis",
+			"sex": "M",
+			"image": "SENATOR BRIAN FRANCIS.jpg"
+		},
+		{
+			"name": "George J. Furey",
+			"sex": "M",
+			"image": "SENATOR GEORGE J. FUREY.jpg"
+		},
+		{
+			"name": "Raymonde Gagné",
+			"sex": "F",
+			"image": "SENATOR RAYMONDE GAGNÉ.jpg"
+		},
+		{
+			"name": "Rosa Galvez",
+			"sex": "F",
+			"image": "SENATOR ROSA GALVEZ.jpg"
+		},
+		{
+			"name": "Amina Gerba",
+			"sex": "F",
+			"image": "SENATOR AMINA GERBA.jpg"
+		},
+		{
+			"name": "Clément Gignac",
+			"sex": "M",
+			"image": "SENATOR CLÉMENT GIGNAC.jpg"
+		},
+		{
+			"name": "Marc Gold",
+			"sex": "M",
+			"image": "SENATOR MARC GOLD.jpg"
+		},
+		{
+			"name": "Stephen Greene",
+			"sex": "M",
+			"image": "SENATOR STEPHEN GREENE.jpg"
+		},
+		{
+			"name": "Peter Harde",
+			"sex": "M",
+			"image": "SENATOR PETER HARDE.jpg"
+		},
+		{
+			"name": "Nancy J. Hartlin",
+			"sex": "F",
+			"image": "SENATOR NANCY J. HARTLIN.jpg"
+		},
+		{
+			"name": "Leo Housakos",
+			"sex": "M",
+			"image": "SENATOR LEO HOUSAKOS.jpg"
+		},
+		{
+			"name": "Mobina Jaffer",
+			"sex": "F",
+			"image": "SENATOR MOBINA JAFFER.jpg"
+		},
+		{
+			"name": "Marty Klyne",
+			"sex": "M",
+			"image": "SENATOR MARTY KLYNE.jpg"
+		},
+		{
+			"name": "Stan Kutcher",
+			"sex": "M",
+			"image": "SENATOR STAN KUTCHER.jpg"
+		},
+		{
+			"name": "Patti LaBoucane-Benson",
+			"sex": "F",
+			"image": "SENATOR PATTI LABOUCANE-BENSON.jpg"
+		},
+		{
+			"name": "Frances Lankin",
+			"sex": "F",
+			"image": "SENATOR FRANCES LANKIN.jpg"
+		},
+		{
+			"name": "Tony Loffreda",
+			"sex": "M",
+			"image": "SENATOR TONY LOFFREDA.jpg"
+		},
+		{
+			"name": "Sandra M. Lovelace Nicholas",
+			"sex": "F",
+			"image": "SENATOR SANDRA M. LOVELACE NICHOLAS.jpg"
+		},
+		{
+			"name": "Michael L. MacDonald",
+			"sex": "M",
+			"image": "SENATOR MICHAEL L. MACDONALD.jpg"
+		},
+		{
+			"name": "Fabian Manning",
+			"sex": "M",
+			"image": "SENATOR FABIAN MANNING.jpg"
+		},
+		{
+			"name": "Elizabeth Marshall",
+			"sex": "F",
+			"image": "SENATOR ELIZABETH MARSHALL.jpg"
+		},
+		{
+			"name": "Yonah Martin",
+			"sex": "F",
+			"image": "SENATOR YONAH MARTIN.jpg"
+		},
+		{
+			"name": "Sabi Marwah",
+			"sex": "M",
+			"image": "SENATOR SABI MARWAH.jpg"
+		},
+		{
+			"name": "Paul J. Massicotte",
+			"sex": "M",
+			"image": "SENATOR PAUL J. MASSICOTTE.jpg"
+		},
+		{
+			"name": "Mary Jane McCallum",
+			"sex": "F",
+			"image": "SENATOR MARY JANE MCCALLUM.jpg"
+		},
+		{
+			"name": "Marilou McPhedran",
+			"sex": "F",
+			"image": "SENATOR MARILOU MCPHEDRAN.jpg"
+		},
+		{
+			"name": "Marie-Françoise Mégie",
+			"sex": "F",
+			"image": "SENATOR MARIE-FRANÇOISE MÉGIE.jpg"
+		},
+		{
+			"name": "Julie Miville-Dechêne",
+			"sex": "F",
+			"image": "SENATOR JULIE MIVILLE-DECHÊNE.jpg"
+		},
+		{
+			"name": "Percy Mockler",
+			"sex": "M",
+			"image": "SENATOR PERCY MOCKLER.jpg"
+		},
+		{
+			"name": "Lucie Moncion",
+			"sex": "F",
+			"image": "SENATOR LUCIE MONCION.jpg"
+		},
+		{
+			"name": "Rosemary Moodie",
+			"sex": "F",
+			"image": "SENATOR ROSEMARY MOODIE.jpg"
+		},
+		{
+			"name": "Victor Oh",
+			"sex": "M",
+			"image": "SENATOR VICTOR OH.jpg"
+		},
+		{
+			"name": "Ratna Omidvar",
+			"sex": "F",
+			"image": "SENATOR RATNA OMIDVAR.jpg"
+		},
+		{
+			"name": "Kim Pate",
+			"sex": "F",
+			"image": "SENATOR KIM PATE.jpg"
+		},
+		{
+			"name": "Dennis Patterson",
+			"sex": "M",
+			"image": "SENATOR DENNIS PATTERSON.jpg"
+		},
+		{
+			"name": "Chantal Petitclerc",
+			"sex": "F",
+			"image": "SENATOR CHANTAL PETITCLERC.jpg"
+		},
+		{
+			"name": "Donald Neil Plett",
+			"sex": "M",
+			"image": "SENATOR DONALD NEIL PLETT.jpg"
+		},
+		{
+			"name": "Rose-May Poirier",
+			"sex": "F",
+			"image": "SENATOR ROSE-MAY POIRIER.jpg"
+		},
+		{
+			"name": "Jim Quinn",
+			"sex": "M",
+			"image": "SENATOR JIM QUINN.jpg"
+		},
+		{
+			"name": "Mohamed-Iqbal Ravalia",
+			"sex": "M",
+			"image": "SENATOR MOHAMED-IQBAL RAVALIA.jpg"
+		},
+		{
+			"name": "David Richards",
+			"sex": "M",
+			"image": "SENATOR DAVID RICHARDS.jpg"
+		},
+		{
+			"name": "Pierrette Ringuette",
+			"sex": "F",
+			"image": "SENATOR PIERRETTE RINGUETTE.jpg"
+		},
+		{
+			"name": "Raymonde Saint-Germain",
+			"sex": "F",
+			"image": "SENATOR RAYMONDE SAINT-GERMAIN.jpg"
+		},
+		{
+			"name": "Judith G. Seidman",
+			"sex": "F",
+			"image": "SENATOR JUDITH G. SEIDMAN.jpg"
+		},
+		{
+			"name": "Paula Simons",
+			"sex": "F",
+			"image": "SENATOR PAULA SIMONS.jpg"
+		},
+		{
+			"name": "Larry W. Smith",
+			"sex": "M",
+			"image": "SENATOR LARRY W. SMITH.jpg"
+		},
+		{
+			"name": "Karen Sorensen",
+			"sex": "F",
+			"image": "SENATOR KAREN SORENSEN.jpg"
+		},
+		{
+			"name": "Scott Tannas",
+			"sex": "M",
+			"image": "SENATOR SCOTT TANNAS.jpg"
+		},
+		{
+			"name": "Josée Verner",
+			"sex": "F",
+			"image": "SENATOR JOSÉE VERNER.jpg"
+		},
+		{
+			"name": "Pamela Wallin",
+			"sex": "F",
+			"image": "SENATOR PAMELA WALLIN.jpg"
+		},
+		{
+			"name": "David M. Wells",
+			"sex": "M",
+			"image": "SENATOR DAVID M. WELLS.jpg"
+		},
+		{
+			"name": "Vernon White",
+			"sex": "M",
+			"image": "SENATOR VERNON WHITE.jpg"
+		},
+		{
+			"name": "Yuen Pau Woo",
+			"sex": "M",
+			"image": "SENATOR YUEN PAU WOO.jpg"
+		},
+		{
+			"name": "Hassan Yussuf",
+			"sex": "M",
+			"image": "SENATOR HASSAN YUSSUF.jpg"
 		}
 	]
 }
