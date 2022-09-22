@@ -1,8 +1,8 @@
 <template>
 	<div class="overflow-hidden bg-white shadow sm:rounded-lg main">
 		<div class="border-b-2 border-gray-200 p-4">
-			<h1 class="text-lg font-medium text-center text-gray-900">Senatorts</h1>
-			<p class="text-center text-gray-500">Do you recognise them all?</p>
+			<h1 class="text-lg font-medium text-center text-gray-900 uppercase">Senators</h1>
+			<p class="text-center text-gray-500">Do you recognize them all?</p>
 		</div>
 		
 		<div class="p-4 text-center">

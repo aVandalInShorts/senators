@@ -56,8 +56,6 @@ const total = ref(10);
 
 generateSenatorList();
 fillDataWithSenator();
-console.log('senatorsList', senatorsList);
-console.log('answers', answers);
 
 function fillDataWithSenator(index: number = 1) {
   const curr = senatorsList[index - 1];
