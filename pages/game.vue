@@ -1,8 +1,8 @@
 <template>
 <div class="flex flex-col flex-nowrap align-items-center game">
   <div class="overflow-hidden bg-white shadow sm:rounded-lg">
-    <div class="border-b-2 border-gray-200 p-4">
-      <img :src="require(`@/static/profile/${picture}`)" />
+    <div class="border-b-2 border-gray-200 p-4 text-center">
+      <img :src="require(`@/static/profile/${picture}`)" class="inline-block" />
 		</div>
     
     <div class="border-b-2 border-gray-200 p-4 flex justify-between">
@@ -12,7 +12,7 @@
         v-if="showNext !== 'remove'"
         class="text-sky-600 text-lg transition ease-in-out duration-200"
         :class="{ 'opacity-50' : showNext === 'disabled' }"
-        :disabled="showNext === 'disabled'">Next question {{showNext}}</button>
+        :disabled="showNext === 'disabled'">Next question</button>
 		</div>
     
     <div class="grid grid-cols-2 gap-[2px] bg-gray-200">

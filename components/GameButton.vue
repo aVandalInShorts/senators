@@ -6,7 +6,7 @@
 			:disabled="state !== 'normal'"
 			@click="$emit('clicked', num)">
 		<span class="inline-block bg-sky-600 w-[25px] h-[25px] text-white rounded-full">{{ num }}</span>
-		<span class="inline-block ml-2">{{ name }}, {{state}}</span>
+		<span class="inline-block ml-2">{{ name }}</span>
 	</button>
 </template>
 <script setup>
